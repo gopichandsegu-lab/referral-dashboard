@@ -1,0 +1,70 @@
+.table-top{
+display:flex;
+justify-content:space-between;
+margin:25px 0;
+}
+
+.table-search{
+padding:10px;
+border:1px solid #ddd;
+border-radius:8px;
+}
+
+.table-wrapper{
+overflow:auto;
+border:2px solid #6C5CE7;
+border-radius:12px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+thead{
+background:#6C5CE7;
+color:white;
+}
+
+th{
+padding:15px;
+text-align:left;
+}
+
+td{
+padding:15px;
+border-bottom:1px solid #eee;
+}
+
+.no-data{
+text-align:center;
+padding:30px;
+}
+
+.pagination{
+display:flex;
+gap:8px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.pagination button{
+padding:8px 15px;
+border:1px solid #6C5CE7;
+background:white;
+border-radius:6px;
+}
+
+.pagination .active{
+background:#6C5CE7;
+color:white;
+}
+
+@media(max-width:768px){
+
+.table-top{
+flex-direction:column;
+gap:15px;
+}
+
+}

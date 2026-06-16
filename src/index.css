@@ -1,0 +1,41 @@
+:root {
+  --purple: #6C5CE7;
+  --purple-dark: #5B4BD6;
+  --purple-light: #EFEDFE;
+  --purple-grad: linear-gradient(135deg, #8B7CF6 0%, #6C5CE7 100%);
+  --text-dark: #1E1B2E;
+  --text-gray: #8B8B9A;
+  --border-color: #E5E3F1;
+  --white: #ffffff;
+  --font-main: "Segoe UI", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: #fff;
+  color: var(--text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
